@@ -1,0 +1,176 @@
+header {
+  background-color: #9C85EF; /* Light purple background for the entire header */
+}
+
+.nav-wrapper {
+  background-color: #9C85EF; /* Darker purple background for the first row */
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.site-name {
+  font-family: Montserrat; /* Change to Montserrat */
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.about-us {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Montserrat; /* Change to Montserrat */
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.about-us:hover {
+  background-color: #333333;
+}
+
+nav {
+  background-color: #7B6BD2; /* Darker purple background for the second row */
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Montserrat; /* Change to Montserrat */
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #333333;
+}
+ /* Add this CSS for the submenu */
+nav ul li {
+  position: relative; /* Add this line to make sure the submenu is positioned relative to the list item */
+}
+
+/* Add this CSS for the submenu */
+.casino-online-submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position the submenu below the list item */
+  left: 0;
+  background-color: #9C85EF; /* Darker purple background for the submenu */
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 200px; /* Adjust the width of the submenu */
+  z-index: 1000;
+}
+
+.casino-online-submenu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex; /* Make the submenu items flex container */
+  flex-direction: column; /* Display the submenu items vertically */
+  
+}
+
+.casino-online-submenu li {
+  margin: 0;
+  padding: 10px;
+  
+}
+
+nav ul li:hover .casino-online-submenu {
+  display: block;
+}
+
+
+
+/* Add this CSS for the nested "Payments" submenu */
+.sub-submenu {
+  display: none;
+  position: absolute;
+  top: 0; /* Adjust the position based on your design */
+  left: 100%; /* Position the submenu to the right of the parent menu item */
+  background-color: #7B6BD2; /* Darker purple background for the submenu */
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 150px;
+}
+
+.sub-submenu ul {
+  list-style: none;
+  padding: 10px; /* Add padding to the submenu */
+  margin: 0;
+}
+
+.sub-submenu li {
+  margin: 8px 0; /* Add margin above and below each submenu item */
+}
+
+.casino-online-submenu li:hover .sub-submenu {
+  display: block;
+}
+
+/* Your existing styles */
+
+footer {
+  background-color: #9C85EF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  font-family: Montserrat;
+  color: #FFFFFF;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  align-self: flex-end;
+}
+
+.footer-social img {
+  margin-right: 10px;
+}

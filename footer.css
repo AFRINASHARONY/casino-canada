@@ -1,0 +1,38 @@
+/* Your existing styles */
+
+footer {
+  background-color: #9C85EF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  font-family: Montserrat;
+  color: #FFFFFF;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  align-self: flex-end;
+}
+
+.footer-social img {
+  margin-right: 10px;
+}
