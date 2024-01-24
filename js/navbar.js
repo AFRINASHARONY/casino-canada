@@ -19,7 +19,7 @@ function loadNavbar() {
       <ul>
         
         <li>
-		  <a href="#">CASINO ONLINE▾</a>
+		  <a href="/">CASINO ONLINE▾</a>
 		  <div class="casino-online-submenu">
 			<ul>
 			  <li><a href="/pages/casinos/fast-payout/">Fast Pay</a></li>
@@ -56,7 +56,7 @@ function loadNavbar() {
         <li><a href="/pages/games/">CASINO CAMES▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="/pages/games/backjack">Blackjack</a></li>
+			  <li><a href="/pages/games/blackjack">Blackjack</a></li>
 			  <li><a href="/pages/games/bingo/">Bingo</a></li>
 			  <li><a href="/pages/games/online-lottery/">Online Lottery</a></li>
 			</ul>
@@ -70,11 +70,11 @@ function loadNavbar() {
 			  <li><a href="/pages/bonuses/cashback/">Cashback</a></li>
 			</ul>
 		  </div></li>
-        <li><a href="/pages/bonuses/free-slots/">FREE SLOTS▾</a>
+        <li><a href="/pages/free-slots/">FREE SLOTS▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="/pages/bonuses/free-slots/popular-slots/">Popular Slots</a></li>
-			  <li><a href="/pages/bonuses/free-slots/real-money-slots/">Real Money Slots</a></li>
+			  <li><a href="/pages/free-slots/popular-slots/">Popular Slots</a></li>
+			  <li><a href="/pages/free-slots/real-money-slots/">Real Money Slots</a></li>
 			  
 			</ul>
 		  </div></li>
