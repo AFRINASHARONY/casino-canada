@@ -22,15 +22,15 @@ function loadNavbar() {
 		  <a href="#">CASINO ONLINE▾</a>
 		  <div class="casino-online-submenu">
 			<ul>
-			  <li><a href="./fastpay.html">Fast Pay</a></li>
-			  <li><a href="./bestpay.html">Best Pay</a></li>
-			  <li><a href="#">Payments▸</a>
+			  <li><a href="/pages/casinos/fast-payout/">Fast Pay</a></li>
+			  <li><a href="/pages/casinos/best-pay/">Best Pay</a></li>
+			  <li><a href="/pages/payments/">Payments▸</a>
         <!-- Add a nested submenu for "Payments" -->
 				<div class="sub-submenu">
 				  <ul>
-					<li><a href="./bitcoins.html">Bitcoin</a></li>
-					<li><a href="./neteller.html">Neteller</a></li>
-					<li><a href="./debitcards.html">Debit Card</a></li>
+					<li><a href="/pages/payments/bitcoin/">Bitcoin</a></li>
+					<li><a href="/pages/payments/neteller/">Neteller</a></li>
+					<li><a href="/pages/payments/debit">Debit Card</a></li>
 				  </ul>
 				</div>
 			  </li>
@@ -41,40 +41,40 @@ function loadNavbar() {
         <li><a href="#">REVIEWS▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="./newcasinos.html">New Casinos</a></li>
-			  <li><a href="#">Mobile Casinos▸</a>
+			  <li><a href="/pages/reviews/new-casinos/">New Casinos</a></li>
+			  <li><a href="/pages/reviews/mobile-casinos">Mobile Casinos▸</a>
 			  <div class="sub-submenu">
 				  <ul>
-					<li><a href="./android.html">Android</a></li>
-					<li><a href="./iphone.html">IPhone</a></li>
+					<li><a href="/pages/reviews/mobile-casinos/android/">Android</a></li>
+					<li><a href="/pages/reviews/mobile-casinos/iphone">IPhone</a></li>
 					
 				  </ul>
 				</div></li>
-			  <li><a href="./realmoney.html">Real Money Casinos</a></li>
+			  <li><a href="/pages/reviews/real-money-casinos">Real Money Casinos</a></li>
 			</ul>
 		  </div></li>
-        <li><a href="#">CASINO CAMES▾</a>
+        <li><a href="/pages/games/">CASINO CAMES▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="./blackjack">Blackjack</a></li>
-			  <li><a href="./bingo">Bingo</a></li>
-			  <li><a href="./onlinelottery">Online Lottery</a></li>
+			  <li><a href="/pages/games/backjack">Blackjack</a></li>
+			  <li><a href="/pages/games/bingo/">Bingo</a></li>
+			  <li><a href="/pages/games/online-lottery/">Online Lottery</a></li>
 			</ul>
 		  </div></li>
         
-        <li><a href="#">BONUSES▾</a>
+        <li><a href="/pages/bonuses/">BONUSES▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="./nodepositbonus">No Deposit Bonuses</a></li>
-			  <li><a href="./freespins">Free Spins</a></li>
-			  <li><a href="./cashback">Cashback</a></li>
+			  <li><a href="/pages/bonuses/no-deposit">No Deposit Bonuses</a></li>
+			  <li><a href="/pages/bonuses/free-spins/">Free Spins</a></li>
+			  <li><a href="/pages/bonuses/cashback/">Cashback</a></li>
 			</ul>
 		  </div></li>
-        <li><a href="#">FREE SLOTS▾</a>
+        <li><a href="/pages/bonuses/free-slots/">FREE SLOTS▾</a>
 		<div class="casino-online-submenu">
 			<ul>
-			  <li><a href="./popularslots">Popular Slots</a></li>
-			  <li><a href="./realmoneyslots">Real Money Slots</a></li>
+			  <li><a href="/pages/bonuses/free-slots/popular-slots/">Popular Slots</a></li>
+			  <li><a href="/pages/bonuses/free-slots/real-money-slots/">Real Money Slots</a></li>
 			  
 			</ul>
 		  </div></li>
