@@ -38,7 +38,7 @@ function loadNavbar() {
 		  </div>
 		</li>
 
-        <li><a href="#">REVIEWS▾</a>
+        <li><a href="/pages/reviews">REVIEWS▾</a>
 		<div class="casino-online-submenu">
 			<ul>
 			  <li><a href="/pages/reviews/new-casinos/">New Casinos</a></li>
