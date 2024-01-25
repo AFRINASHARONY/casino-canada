@@ -24,13 +24,13 @@ function loadNavbar() {
 			<ul>
 			  <li><a href="/pages/casinos/fast-payout/">Fast Pay</a></li>
 			  <li><a href="/pages/casinos/best-pay/">Best Pay</a></li>
-			  <li><a href="/pages/payments/">Payments▸</a>
+			  <li><a href="/pages/casinos/payments/">Payments▸</a>
         <!-- Add a nested submenu for "Payments" -->
 				<div class="sub-submenu">
 				  <ul>
-					<li><a href="/pages/payments/bitcoin/">Bitcoin</a></li>
-					<li><a href="/pages/payments/neteller/">Neteller</a></li>
-					<li><a href="/pages/payments/debit">Debit Card</a></li>
+					<li><a href="/pages/casinos/payments/bitcoin/">Bitcoin</a></li>
+					<li><a href="/pages/casinos/payments/neteller/">Neteller</a></li>
+					<li><a href="/pages/casinos/payments/debit">Debit Card</a></li>
 				  </ul>
 				</div>
 			  </li>
