@@ -8,7 +8,7 @@ function loadFooter() {
   container.innerHTML = `
 <footer>
   <div class="footer-column">
-    <h4>CASINO ONLINE</h4>
+    <h2>CASINO ONLINE</h2>
     <ul>
       <li><a href="/pages/casinos/fast-payout/">Fast Pay</a></li>
       <li><a href="/pages/casinos/best-pay/">Best Pay</a></li>
@@ -19,7 +19,7 @@ function loadFooter() {
   </div>
 
   <div class="footer-column">
-    <h4>REVIEWS</h4>
+    <h2>REVIEWS</h2>
     <ul>
       <li><a href="/pages/reviews/new-casinos/">New Casino</a></li>
       <li><a href="/pages/reviews/mobile-casinos/android/">Android</a></li>
@@ -29,7 +29,7 @@ function loadFooter() {
   </div>
 
   <div class="footer-column">
-    <h4>CASINO GAMES</h4>
+    <h2>CASINO GAMES</h2>
     <ul>
       <li><a href="/pages/games/blackjack">Blackjack</a></li>
       <li><a href="/pages/games/bingo/">Bingo</a></li>
@@ -38,7 +38,7 @@ function loadFooter() {
   </div>
 
   <div class="footer-column">
-    <h4>BONUSES</h4>
+    <h2>BONUSES</h2>
     <ul>
       <li><a href="/pages/bonuses/no-deposit">No Deposit</a></li>
       <li><a href="/pages/bonuses/free-spins/">Free Spin</a></li>
@@ -47,7 +47,7 @@ function loadFooter() {
   </div>
 
   <div class="footer-column">
-    <h4>FREE SLOTS</h4>
+    <h2>FREE SLOTS</h2>
     <ul>
       <li><a href="/pages/free-slots/popular-slots/">Popular Slots</a></li>
       <li><a href="/pages/free-slots/real-money-slots/">Real Money Slots</a></li>
