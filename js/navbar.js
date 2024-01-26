@@ -1,11 +1,11 @@
 // navbar.js
 
 function loadNavbar() {
-	// Create a div to hold the content
-	var container = document.createElement('div');
-  
-	// Set the HTML content for the navigation bar
-	container.innerHTML = `
+  // Create a div to hold the content
+  var container = document.createElement("div");
+
+  // Set the HTML content for the navigation bar
+  container.innerHTML = `
   <header>
 	<div class="container">
 	  <div class="nav-wrapper">
@@ -17,27 +17,25 @@ function loadNavbar() {
 	  </div>
 	  <nav>
 		<ul>
-		  
-		  <li>
-			<a href="/">CASINO ONLINE▾</a>
-			<div class="casino-online-submenu">
-			  <ul>
-				<li><a href="/pages/casinos/fast-payout/">Fast Pay</a></li>
-				<li><a href="/pages/casinos/best-pay/">Best Pay</a></li>
-				<li><a href="/pages/casinos/payments/">Payments▸</a>
-		  <!-- Add a nested submenu for "Payments" -->
-				  <div class="sub-submenu">
+				<li>
+					<a href="/">CASINO ONLINE▾</a>
+					<div class="casino-online-submenu">
 					<ul>
-					  <li><a href="/pages/casinos/payments/bitcoin/">Bitcoin</a></li>
-					  <li><a href="/pages/casinos/payments/neteller/">Neteller</a></li>
-					  <li><a href="/pages/casinos/payments/debit">Debit Card</a></li>
+						<li><a href="/pages/casinos/fast-payout/">Fast Paying Casinos</a></li>
+						<li><a href="/pages/casinos/best-pay/">Best Paying Casinos</a></li>
+						<li><a href="/pages/casinos/payments/">Payments▸</a>
+				<!-- Add a nested submenu for "Payments" -->
+						<div class="sub-submenu">
+							<ul>
+							<li><a href="/pages/casinos/payments/bitcoin/">Bitcoin</a></li>
+							<li><a href="/pages/casinos/payments/neteller/">Neteller</a></li>
+							<li><a href="/pages/casinos/payments/debit">Debit Card</a></li>
+							</ul>
+						</div>
+						</li>
 					</ul>
-				  </div>
+					</div>
 				</li>
-			  </ul>
-			</div>
-		  </li>
-  
 		  <li><a href="/pages/reviews">REVIEWS▾</a>
 		  <div class="casino-online-submenu">
 			  <ul>
@@ -53,7 +51,7 @@ function loadNavbar() {
 				<li><a href="/pages/reviews/real-money-casinos">Real Money Casinos</a></li>
 			  </ul>
 			</div></li>
-		  <li><a href="/pages/games/">CASINO CAMES▾</a>
+		  <li><a href="/pages/games/">CASINO GAMES▾</a>
 		  <div class="casino-online-submenu">
 			  <ul>
 				<li><a href="/pages/games/blackjack">Blackjack</a></li>
@@ -65,7 +63,7 @@ function loadNavbar() {
 		  <li><a href="/pages/bonuses/">BONUSES▾</a>
 		  <div class="casino-online-submenu">
 			  <ul>
-				<li><a href="/pages/bonuses/no-deposit">No Deposit Bonuses</a></li>
+				<li><a href="/pages/bonuses/no-deposit">No Deposit</a></li>
 				<li><a href="/pages/bonuses/free-spins/">Free Spins</a></li>
 				<li><a href="/pages/bonuses/cashback/">Cashback</a></li>
 			  </ul>
@@ -84,10 +82,10 @@ function loadNavbar() {
 	</div>
   </header>
 	`;
-  
-	// Append the content to the container
-	document.getElementById('navbar-container').appendChild(container);
-  }
-  
-  // Call the function to load the navbar when the DOM is ready
-  document.addEventListener('DOMContentLoaded', loadNavbar);
+
+  // Append the content to the container
+  document.getElementById("navbar-container").appendChild(container);
+}
+
+// Call the function to load the navbar when the DOM is ready
+document.addEventListener("DOMContentLoaded", loadNavbar);
